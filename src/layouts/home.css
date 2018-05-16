@@ -1,0 +1,233 @@
+@media (max-width: 880px) {
+  #logo {
+    width: 233px;
+    height: 233px;
+  }
+
+  #area-icons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #area-icons p {
+    width: 200px;
+    text-align: justify;
+  }
+}
+
+@media (max-width: 750px) {
+  #logo {
+    width: 203px;
+    height: 203px;
+  }
+}
+
++@media (max-width: 650px) {
+  #logo {
+    width: 153px;
+    height: 153px;
+  }
+}
+
+@media (max-width: 560px) {
+  #logo {
+    width: 133px;
+    height: 133px;
+  }
+}
+
+@media (max-width: 515px) {
+  #logo {
+    width: 43px;
+    height: 43px;
+    position: fixed;
+    width: 43px;
+    height: 43px;
+    position: fixed;
+    z-index: 10;
+    top: 3px;
+    left: 10px;
+  }
+}
+
+.homepage {
+  position: relative;
+}
+
+#home-background-img {
+  width: 100%;
+  max-height: 1000px;
+  object-fit: cover;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+#home-header {
+  position: absolute;
+  z-index: 1;
+  top: 15vw;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 273px;
+  max-width: 273px;
+  padding: 0.15%;
+  background: white;
+  border-radius: 50%;
+}
+
+#homepage-title {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header-desktop {
+  font-size: 80px;
+}
+.header-tablet {
+  font-size: 60px;
+}
+.header-phone {
+  margin-top: 65px;
+  font-size: 40px;
+}
+
+#description {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  display: inline;
+}
+
+.desc-desktop {
+  margin: 100px;
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+  font-size: 35px;
+}
+.desc-tablet{
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  font-size: 20px;
+}
+.desc-phone {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  font-size: 18px;
+  margin: 10px;
+}
+
+#renaissance {
+  min-height: 130px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#renaissance h2 {
+  display: flex;
+  margin: 25px 0;
+  justify-content: center;
+}
+
+
+#renaissance p {
+  display: flex;
+  justify-content: center;
+  padding: 0 25px 25px 25px;
+}
+
+#areas {
+  background: #D4CED8;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+}
+
+#area-icons {
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+}
+
+.area-pairs img {
+  width: 130px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.area-pairs p {
+  text-align: justify;
+  min-width: 220px;
+  margin: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#area-descriptions * {
+  margin: 30px;
+  text-align: justify;
+  min-width: 220px;
+}
+
+#email {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  background: #2A4048;
+  color: #8D9AA0;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#email a {
+  color: #8D9AA0;
+} 
+
+#insta-container {
+  height: 400px;
+}
+
+#insta {
+  height: 300px;
+  width: 300px;
+  font-family: 'Open Sans', sans-serif;
+  margin: auto;
+}
+
+.insta-title {
+  text-align: center;
+}
+
+#insta a {
+  width: 200px;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+
+#insta img {
+  display: block;
+  padding-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 230px;
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+#insta:hover {
+  background: #A1ADB3;
+}
+
+#insta p:hover {
+  text-decoration: underline;
+}
