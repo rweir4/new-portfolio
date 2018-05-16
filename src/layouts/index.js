@@ -10,6 +10,7 @@ import './writing.css';
 import './navBar.css';
 import './biochemistry.css';
 import './coding.css';
+import './blog.css';
 
 const Layout = ({ children, data }) => (
   <div>
