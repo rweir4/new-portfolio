@@ -8,6 +8,7 @@ import coding from '../../assets/images/coding (1).png';
 import writer from '../../assets/images/writer.png';
 import headshot from '../../assets/images/boo-headshot.png';
 import backgroundImg from '../../assets/images/homepage-background.png';
+import React from 'react';
 
 class IndexPage extends React.Component {
   constructor(props) {
@@ -56,7 +57,7 @@ class IndexPage extends React.Component {
   render() {
     return (
       <div className="homepage">
-        <NavBar />
+        <NavBar background="light" hamburger="dark"/>
         <span>
           <img id="home-background-img" src={backgroundImg} />
         </span>

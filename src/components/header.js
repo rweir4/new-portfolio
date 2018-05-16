@@ -6,3 +6,5 @@ const Header = ({ id, className, siteTitle }) => (
         {siteTitle}
     </h1>
 );
+
+export default Header;

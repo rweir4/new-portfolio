@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'gatsby-link';
 import InstagramLogo from '../../assets/images/instagram-logo.png';
 import GithubLogo from '../../assets/images/github-logo.png';
-import LinkedInLogo from '../../assets/images/linked-in-logo.png';
+import LinkedInLogo from '../../assets/images/linkedin-logo.png';
 
 const Footer = () => (
   <div id="footer">

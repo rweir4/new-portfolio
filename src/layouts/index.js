@@ -4,6 +4,12 @@ import Helmet from 'react-helmet';
 
 import Header from '../components/header';
 import './index.css';
+import './home.css';
+import './footer.css';
+import './writing.css';
+import './navBar.css';
+import './biochemistry.css';
+import './coding.css';
 
 const Layout = ({ children, data }) => (
   <div>

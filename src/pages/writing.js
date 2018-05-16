@@ -1,10 +1,10 @@
 import React from 'react';
 import Link from 'gatsby-link';
-import NavBarRight from '../components/navBarRight';
+import NavBar from '../components/navBar';
 
 const WritingPage = () => (
   <div>
-    <NavBarRight />
+    <NavBar />
   </div>
 );
 
