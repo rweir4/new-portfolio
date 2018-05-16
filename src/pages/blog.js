@@ -3,6 +3,8 @@ import Link from 'gatsby-link';
 import NavBar from '../components/navBar';
 import Footer from '../components/footer';
 import Arrow from '../../assets/images/angle-right.svg';
+import profile from '../../assets/images/profile.jpg';
+import logo from '../../assets/images/rw-logo.png';
 
 class BlogPage extends React.Component {
   constructor(props) {
@@ -40,22 +42,26 @@ class BlogPage extends React.Component {
     const { data } = this.props;
 
     return (
-      <div id="writing">
-        <NavBar />
-        <div>
-          {data.allMarkdownRemark.edges.map(({ node }) => (
-            <div key={node.id}>
-              <h3>
-                {node.frontmatter.title}{" "}
-                <p>{node.frontmatter.date}</p>
-              </h3>
-              <p>{node.excerpt}</p>
-            </div>
-          ))}
+      <div id="blog">
+        <NavBar background="dark"/>
+        <h1><img src={logo} />Blog</h1>
+        <div id="blog-container">
+          <div id="blog-index">
+            {data.allMarkdownRemark.edges.map(({ node }) => (
+              <div className="article" key={node.id}>
+                <h3 className="article-title">
+                  {node.frontmatter.title}{" "}
+                  <p>{node.frontmatter.date}</p>
+                </h3>
+                <p>{node.excerpt}</p>
+              </div>
+            ))}
+          </div>
+          <div id="sidebar">
+            <img src={profile} />
+            <p>RW Blog is written by Rebecca Weir: coder, scientist, writer.</p>
+          </div>
         </div>
-        <button onClick={this.toggleSideBar} >
-          <img src={Arrow} />
-        </button>
         <Footer />
       </div>
     );
