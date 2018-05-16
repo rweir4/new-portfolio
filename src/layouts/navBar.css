@@ -9,7 +9,7 @@
     border: none;
   }
 
-  .nav-bar button:hover {
+  .nav-bar button img:hover {
     cursor: pointer;
   }
 

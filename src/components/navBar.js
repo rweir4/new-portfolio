@@ -11,6 +11,15 @@ class NavBar extends React.Component {
     this.toggleDropdown = this.toggleDropdown.bind(this);
   }
 
+
+  componentDidMount() {
+    window.addEventListener('resize', () => {
+      if (window.innerWidth > 515 && this.state.navClass === 'dropdown') {
+        this.setState({'navClass':'normal'});
+      }
+    });
+  }
+
   toggleDropdown() {
     if (this.state.navClass === 'dropdown') {
       this.setState({'navClass':'normal'});
@@ -30,8 +39,8 @@ class NavBar extends React.Component {
           <Link to="/biochemistry/">Biochemistry</Link>
           <Link to="/blog/">Blog</Link>
         </div>
-        <button className="hide" onClick={this.toggleDropdown}>
-          <img src={Bars} className={`hide color-${this.props.hamburger}`} />
+        <button className='hide' onClick={this.toggleDropdown}>
+          <img src={Bars} className={`color-${this.props.hamburger}`} />
         </button>
       </div>
     );
