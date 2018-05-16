@@ -6,14 +6,14 @@ import Bars from '../../assets/images/bars.svg';
 class NavBar extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { navClass: 'hide' };
+    this.state = { navClass: 'normal' };
 
     this.toggleDropdown = this.toggleDropdown.bind(this);
   }
 
   toggleDropdown() {
     if (this.state.navClass === 'dropdown') {
-      this.setState({'navClass':'hide'});
+      this.setState({'navClass':'normal'});
     } else {
       this.setState({'navClass':'dropdown'});
     }

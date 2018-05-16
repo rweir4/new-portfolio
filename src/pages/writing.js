@@ -4,7 +4,7 @@ import NavBar from '../components/navBar';
 
 const WritingPage = () => (
   <div>
-    <NavBar />
+    <NavBar background="light" hamburger="dark"/>
   </div>
 );
 
