@@ -1,0 +1,2 @@
+webpackJsonp([49683490770531],{350:function(e,t){e.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{id:"/Users/rebeccaweir/Documents/porfolio/src/pages/hello_world.md absPath of file >>> MarkdownRemark",frontmatter:{title:"Hello World",date:"2018-05-16"},excerpt:"Of course I did. I had to name my first blog post hello world. It was imperative as a software developer just as it was imperative that I…"}}]}},pathContext:{}}}});
+//# sourceMappingURL=path---blog-9307b6c54d5ca28c4c3f.js.map
