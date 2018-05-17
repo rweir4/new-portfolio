@@ -5,16 +5,16 @@
       "path---poster-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-biochemistry-js": [
-      "component---src-pages-biochemistry-js-1f28aeef329b6959c2ce.js",
-      "component---src-pages-biochemistry-js-1f28aeef329b6959c2ce.js.map"
+      "component---src-pages-biochemistry-js-ac5d880d284fbf295ccc.js",
+      "component---src-pages-biochemistry-js-ac5d880d284fbf295ccc.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-28658066448d40a353dd.js",
-      "component---src-pages-index-js-28658066448d40a353dd.js.map"
+      "component---src-pages-index-js-523ee3feb3686ed3ca83.js",
+      "component---src-pages-index-js-523ee3feb3686ed3ca83.js.map"
     ],
     "path---blog": [
-      "path---blog-9307b6c54d5ca28c4c3f.js",
-      "path---blog-9307b6c54d5ca28c4c3f.js.map"
+      "path---blog-6e890a7ff1bee2ed0082.js",
+      "path---blog-6e890a7ff1bee2ed0082.js.map"
     ],
     "component---src-pages-poster-js": [
       "component---src-pages-poster-js-a0e7b5443d235dcaa0bc.js",
@@ -24,17 +24,21 @@
       "path----34440d5a351c09fee476.js",
       "path----34440d5a351c09fee476.js.map"
     ],
+    "component---src-templates-blog-post-js": [
+      "component---src-templates-blog-post-js-1f18188876392b2a2cb5.js",
+      "component---src-templates-blog-post-js-1f18188876392b2a2cb5.js.map"
+    ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-40ff7c45713eb46933bb.js",
-      "component---src-layouts-index-js-40ff7c45713eb46933bb.js.map"
+      "component---src-layouts-index-js-aeb71f2ba379e5a93f13.js",
+      "component---src-layouts-index-js-aeb71f2ba379e5a93f13.js.map"
     ],
     "path---coding": [
       "path---coding-a0e39f21c11f6a62c5ab.js",
       "path---coding-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-coding-js": [
-      "component---src-pages-coding-js-fae143f0b54685a9bde2.js",
-      "component---src-pages-coding-js-fae143f0b54685a9bde2.js.map"
+      "component---src-pages-coding-js-171f8aa9f75b5d787496.js",
+      "component---src-pages-coding-js-171f8aa9f75b5d787496.js.map"
     ],
     "path---biochemistry": [
       "path---biochemistry-a0e39f21c11f6a62c5ab.js",
@@ -43,6 +47,10 @@
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
       "path---index-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---hello-world": [
+      "path---hello-world-105deaed7ae769777383.js",
+      "path---hello-world-105deaed7ae769777383.js.map"
     ],
     "path---writing": [
       "path---writing-a0e39f21c11f6a62c5ab.js",
@@ -57,8 +65,8 @@
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
     ],
     "commons": [
-      "commons-40b442ad9ac0ad903579.js",
-      "commons-40b442ad9ac0ad903579.js.map"
+      "commons-61957beb65725ad36d61.js",
+      "commons-61957beb65725ad36d61.js.map"
     ],
     "component---src-pages-writing-js": [
       "component---src-pages-writing-js-718b51894522b06701ea.js",
@@ -69,17 +77,17 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-blog-js": [
-      "component---src-pages-blog-js-5ad9f5278c7652f7ab8a.js",
-      "component---src-pages-blog-js-5ad9f5278c7652f7ab8a.js.map"
+      "component---src-pages-blog-js-1b77c95624b0e475e1ff.js",
+      "component---src-pages-blog-js-1b77c95624b0e475e1ff.js.map"
     ],
     "path---resume": [
       "path---resume-a0e39f21c11f6a62c5ab.js",
       "path---resume-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-fd6d645aefcc0d42574e.js",
+      "app-959d5d2b0e0dce1e37be.js",
       "build-js-styles.css",
-      "app-fd6d645aefcc0d42574e.js.map",
+      "app-959d5d2b0e0dce1e37be.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [

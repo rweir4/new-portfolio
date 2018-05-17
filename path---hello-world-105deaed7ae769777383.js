@@ -1,0 +1,2 @@
+webpackJsonp([0x834755aae49e],{356:function(t,e){t.exports={data:{markdownRemark:{html:'<p>Of course I did. I had to name my first blog post hello world. It was imperative as a software developer just as it was imperative that I write about the world to which I said hello.</p>\n<center><img src="https://thumbs.gfycat.com/DamagedImportantAmurratsnake-max-1mb.gif"/><center>',frontmatter:{title:"Hello World"}}},pathContext:{slug:"/hello_world/"}}}});
+//# sourceMappingURL=path---hello-world-105deaed7ae769777383.js.map
