@@ -49,6 +49,7 @@ class BlogPage extends React.Component {
           <div id="blog-index">
             {data.allMarkdownRemark.edges.map(({ node }) => (
               <Link
+                className="article-link"
                 to={node.fields.slug}
                 css={{ textDecoration: `none`, color: `inherit` }}
                 >

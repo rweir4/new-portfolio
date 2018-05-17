@@ -40,7 +40,19 @@
 
 .article {
   display: flex;
-  justify-content: s
+}
+
+.article-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.article-link:hover {
+  cursor: pointer;
+}
+
+.article:focus {
+  text-decoration: none;
 }
 
 .article > p {

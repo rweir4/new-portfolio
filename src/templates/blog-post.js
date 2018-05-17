@@ -8,9 +8,9 @@ const BlogPost = ({ data }) => {
   const post = data.markdownRemark;
   return (
     <div>
-      <NavBar />
+      <NavBar background="dark"/>
       <h1 id="post-title">{post.frontmatter.title}</h1>
-      <div dangerouslySetInnerHTML={{ __html: post.html }} />
+      <div id="post-html" dangerouslySetInnerHTML={{ __html: post.html }} />
       <Footer />
     </div>
   );
