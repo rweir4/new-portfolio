@@ -23,13 +23,13 @@ class CodingPage extends React.Component {
 
     let headerClass;
     let descriptionClass;
-    if (window.innerWidth < 515) {
-      headerClass = 'header-phone';
-      descriptionClass = 'software-phone';
-    } else {
+    // if (window.innerWidth < 515) {
+      // headerClass = 'header-phone';
+      // descriptionClass = 'software-phone';
+    // } else {
       headerClass = 'header-tablet';
       descriptionClass = 'software-tablet';
-    }
+    // }
 
     this.state = {
       headerFont: headerClass,
