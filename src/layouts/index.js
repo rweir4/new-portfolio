@@ -11,6 +11,7 @@ import './navBar.css';
 import './biochemistry.css';
 import './coding.css';
 import './blog.css';
+import './post.css';
 
 const Layout = ({ children, data }) => (
   <div>

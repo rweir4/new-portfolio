@@ -48,13 +48,18 @@ class BlogPage extends React.Component {
         <div id="blog-container">
           <div id="blog-index">
             {data.allMarkdownRemark.edges.map(({ node }) => (
+              <Link
+                to={node.fields.slug}
+                css={{ textDecoration: `none`, color: `inherit` }}
+                >
               <div className="article" key={node.id}>
-                <h3 className="article-title">
-                  {node.frontmatter.title}{" "}
-                  <p>{node.frontmatter.date}</p>
-                </h3>
-                <p>{node.excerpt}</p>
+                  <h3 className="article-title">
+                    {node.frontmatter.title}{" "}
+                    <p>{node.frontmatter.date}</p>
+                  </h3>
+                  <p>{node.excerpt}</p>
               </div>
+            </Link>
             ))}
           </div>
           <div id="sidebar">
@@ -78,6 +83,9 @@ export const query = graphql`
           frontmatter {
             title
             date
+          }
+          fields {
+            slug
           }
           excerpt
         }

@@ -16,16 +16,8 @@ class IndexPage extends React.Component {
 
     let headerClass;
     let descriptionClass;
-    // if (window.innerWidth < 515) {
-    //   headerClass = 'header-phone';
-    //   descriptionClass = 'desc-phone';
-    // } else if (window.innerWidth < 880) {
-    //   headerClass = 'header-tablet';
-    //   descriptionClass = 'desc-tablet';
-    // } else {
-      headerClass = 'header-desktop';
-      descriptionClass = 'desc-desktop';
-    // }
+    headerClass = 'header-desktop';
+    descriptionClass = 'desc-desktop';
 
     this.state = {
       headerFont: headerClass,
