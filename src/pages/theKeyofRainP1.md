@@ -1,4 +1,7 @@
-<center><h1>The Key of Rain, Part I</h1><center>
+---
+title: 'The Key of Rain, Part I'
+date: '2018-08-2'
+---
 
 	Some days are writing days. Even on those days, there is a voice that tells you of your creative insufficiencies, but I daren’t listen to it.
 	I sit alone, at an old wooden desk, the varnish worn away in streaks, cuts and scraps marking not only the top but the legs, too. One would think the desk would be wobbly, beaten down by time as it is. No, it is sturdy, for under the typewriter at which my fingers punch away, there is no movement.
