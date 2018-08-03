@@ -34,10 +34,6 @@
   justify-content: space-around;
 }
 
-#blog-index {
-  display: flex;
-}
-
 .article {
   display: flex;
 }
@@ -63,6 +59,7 @@
 .article-title {
   font-size: 30px;
   margin-left: 40px;
+  width: 200px;
 }
 
 .article-title p {
