@@ -1,5 +1,5 @@
-@media (max-width: 515px) {
-  .nav-bar button {
+@media (max-width: 520px) {
+  .bars {
     display: block;
     position: fixed;
     z-index: 20;
@@ -9,7 +9,7 @@
     border: none;
   }
 
-  .nav-bar button img:hover {
+  .bars img:hover {
     cursor: pointer;
   }
 
@@ -30,7 +30,7 @@
   }
 }
 
-@media (min-width: 516) {
+@media (min-width: 521) {
   .nav-bar a {
     display: block;
     margin: 15px;
@@ -43,7 +43,7 @@
     display: none;
   }
 
-  .nav-bar button {
+  #bars {
     display: none;
   }
 }
