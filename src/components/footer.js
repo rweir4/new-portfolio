@@ -5,7 +5,7 @@ import GithubLogo from '../../assets/images/github-logo.png';
 import LinkedInLogo from '../../assets/images/linkedin-logo.png';
 
 const Footer = () => (
-  <div id="footer">
+  <footer id="footer">
     <a href="https://www.instagram.com/riza_hawkeyed/">
       <img src={InstagramLogo} />
     </a>
@@ -15,7 +15,7 @@ const Footer = () => (
     <a href="https://www.linkedin.com/in/rebeccalweir/">
       <img src={LinkedInLogo} />
     </a>
-  </div>
+  </footer>
 );
 
 export default Footer;
